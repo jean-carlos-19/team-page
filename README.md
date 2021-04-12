@@ -14,8 +14,11 @@ Preprocesadores
 <h3> Descripcion </h3>
 
 <p>
-Esta aplicación o sitio fue creada como una presentación a un desafío de DevChallenges. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
+Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
 </p>
 
-<a href="http://broad-playground.surge.sh/"> ver demo </a>
-<a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a>
+<ul>
+<li><a href="http://broad-playground.surge.sh/"> ver demo </a></li>
+<li><a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a></li>
+<li><a href="https://devchallenges.io/solutions/UPsPRuQsvaufnf9LJjL0"> ver solucion en Devchallenge </a></li>
+</ul>
