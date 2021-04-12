@@ -1,0 +1,9 @@
+@import "./globales.scss";
+@import "./funciones.scss";
+.contenedor {
+  @include display_flex(column, flex-start, center);
+
+  @import "./encabezado/encabezado";
+  @import "./imagenes/imagenes";
+  @import "./pie_pagina/pie_pagina";
+}

@@ -1,0 +1,11 @@
+{
+  "name": "team-page",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "",
+  "author": "Jean Carlos Piguave Alvarado <piguavejc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w sass -o src/css"
+  }
+}

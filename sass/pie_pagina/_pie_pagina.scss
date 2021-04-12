@@ -1,0 +1,21 @@
+footer {
+  height: 10%;
+  padding: 1em 0;
+  @include display_flex(row, center, center);
+  p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    text-align: center;
+    color: #a9a9a9;
+
+    span {
+      font-family: inherit;
+      text-align: inherit;
+      font-size: 1rem;
+      line-height: inherit;
+      font-weight: bold;
+    }
+  }
+}

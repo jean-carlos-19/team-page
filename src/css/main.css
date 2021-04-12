@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif; }
+
+*,
+*::after,
+*::after {
+  padding: inherit;
+  margin: inherit;
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize; }
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .contenedor .encabezado {
+    width: 100%;
+    padding-bottom: 2rem; }
+    .contenedor .encabezado .titulo {
+      padding: 2.21875em 0.2em 0;
+      font-size: 1.125rem;
+      font-family: PT Serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.25rem;
+      line-height: 3rem;
+      letter-spacing: -0.045em; }
+    .contenedor .encabezado .bienvenido h3 {
+      padding: 4.875rem 0.75rem 0;
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 1.6875rem;
+      text-transform: uppercase;
+      font-weight: 600; }
+    .contenedor .encabezado .bienvenido p {
+      padding: 0.8rem 0.75rem 0;
+      font-family: Poppins;
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      font-weight: 400; }
+    @media screen and (min-width: 37.5em) {
+      .contenedor .encabezado {
+        padding: 5em 0;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; }
+        .contenedor .encabezado .titulo {
+          width: 50%;
+          padding: 0; }
+        .contenedor .encabezado .bienvenido {
+          width: 50%; }
+          .contenedor .encabezado .bienvenido h3 {
+            padding: 0.8rem 0.75rem 0; }
+          .contenedor .encabezado .bienvenido p {
+            font-size: 1.125rem;
+            line-height: 1.6875rem; } }
+    @media screen and (min-width: 50em) {
+      .contenedor .encabezado {
+        width: 80%; } }
+  .contenedor .imagenes {
+    padding: 0.2em;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem; }
+    .contenedor .imagenes figure div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start; }
+      .contenedor .imagenes figure div h6 {
+        writing-mode: vertical-lr;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.625rem;
+        line-height: 0.8125rem;
+        text-transform: uppercase; }
+    .contenedor .imagenes figure figcaption {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      font-weight: 700;
+      text-transform: capitalize; }
+    .contenedor .imagenes figure:nth-child(2n) {
+      margin-top: 1rem; }
+    @media screen and (min-width: 37.5em) {
+      .contenedor .imagenes {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25vmax, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 1rem; }
+      .contenedor .imagenes figure figcaption {
+        font-size: 1.125rem; }
+      .contenedor .imagenes figure h1 {
+        font-size: 0.75rem; }
+      .contenedor .imagenes figure:nth-child(2n) {
+        margin-top: 0; }
+      .contenedor .imagenes figure:nth-child(2) {
+        margin-top: 1rem; }
+      .contenedor .imagenes figure:nth-child(5) {
+        margin-top: 1rem; } }
+    @media screen and (min-width: 50em) {
+      .contenedor .imagenes {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20vmax, 1fr));
+        grid-auto-rows: 1fr;
+        grid-gap: 1rem; } }
+  .contenedor footer {
+    height: 10%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .contenedor footer p {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+      text-align: center;
+      color: #a9a9a9; }
+      .contenedor footer p span {
+        font-family: inherit;
+        text-align: inherit;
+        font-size: 1rem;
+        line-height: inherit;
+        font-weight: bold; }

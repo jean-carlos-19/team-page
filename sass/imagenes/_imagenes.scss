@@ -1,0 +1,60 @@
+.imagenes {
+  padding: 0.2em;
+  width: 95%;
+
+  @include display_grid(150px);
+
+  figure {
+    div {
+      @include display_flex(row, center, flex-start);
+      h6 {
+        writing-mode: vertical-lr;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.625rem;
+        line-height: 0.8125rem;
+        text-transform: uppercase;
+      }
+    }
+    figcaption {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.3125rem;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+    &:nth-child(2n) {
+      margin-top: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 37.5em) {
+    & {
+      @include display_grid(25vmax);
+    }
+    figure {
+      figcaption {
+        font-size: 1.125rem;
+      }
+      h1 {
+        font-size: 0.75rem;
+      }
+    }
+    figure:nth-child(2n) {
+      margin-top: 0;
+    }
+    figure:nth-child(2) {
+      margin-top: 1rem;
+    }
+    figure:nth-child(5) {
+      margin-top: 1rem;
+    }
+  }
+  @media screen and (min-width: 50em) {
+    width: 80%;
+    @include display_grid(20vmax);
+  }
+}
