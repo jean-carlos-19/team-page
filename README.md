@@ -19,6 +19,6 @@ Esta aplicación o sitio fue creada como una presentación a un desafío de <a h
 
 <ul>
 <li><a href="http://broad-playground.surge.sh/"> ver demo </a></li>
-<li><a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a></li>
-<li><a href="https://devchallenges.io/solutions/UPsPRuQsvaufnf9LJjL0"> ver solucion en Devchallenge </a></li>
+<li><a href="https://github.com/jean-carlos-19/404"> ver solucion en github </a></li>
+<li><a href="https://devchallenges.io/solutions/jgfUUBEmeJBDfeRDMcZX"> ver solucion en Devchallenge </a></li>
 </ul>
