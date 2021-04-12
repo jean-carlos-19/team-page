@@ -1,4 +1,5 @@
-<h1> Lenguajes </h1>
+<h1 align="center"> Team Page </h1>
+<h2> Lenguajes </h2>
 <ol>
 <li>HTML</li>
 <li>CSS</li>
@@ -10,10 +11,11 @@ Preprocesadores
 </ol>
 </li>
 
-<h2> Descripcion </h2>
+<h3> Descripcion </h3>
 
 <p>
 Esta aplicación o sitio fue creada como una presentación a un desafío de DevChallenges. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
 </p>
 
 <a href="http://broad-playground.surge.sh/"> ver demo </a>
+<a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a>
