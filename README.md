@@ -42,7 +42,7 @@
         <li><a href="https://piguavejc-team-page.onrender.com/"> ver demo </a></li>
         <li><a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a></li>
         <li><a href="https://devchallenges.io/solutions/UPsPRuQsvaufnf9LJjL0"> ver solucion en Devchallenge </a></li>
-        <li><a href="https://www.figma.com/proto/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?node-id=1%3A56&scaling=min-zoom&page-id=0%3A1"> ver diseños en figma </a></li>
+        <li><a href="https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=0%3A1"> ver diseños en figma </a></li>
     </ul>
 </nav>
 </section>
