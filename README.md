@@ -10,11 +10,11 @@
 </section>
 <nav>
     <ul>
-        <li><a href="">Descripciòn General</a></li>
-        <li><a href="-">Soluciòn</a></li>
-        <li><a href="">Construido Con</a></li>
-        <li><a href="">Caracteristicas</a></li>
-        <li><a href="">Contacto</a></li>    
+        <li><a href="https://github.com/jean-carlos-19/team-page#-descripci%C3%B2n-general-">Descripciòn General</a></li>
+        <li><a href="https://github.com/jean-carlos-19/team-page#-soluci%C3%B2n-">Soluciòn</a></li>
+        <li><a href="https://github.com/jean-carlos-19/team-page#-soluci%C3%B2n-">Construido Con</a></li>
+        <li><a href="https://github.com/jean-carlos-19/team-page#-caracteristicas-">Caracteristicas</a></li>
+        <li><a href="https://github.com/jean-carlos-19/team-page#-contacto-">Contacto</a></li>    
     </ul>
 </nav>
 <section >
