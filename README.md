@@ -1,20 +1,50 @@
 <main>
-<section align="center">
-    <h1 align="center"> Team Page </h1>
+<section>
+    <h1 align="center"> Team Page    </h1>
 </section>
+ <section>
+    <h3 align="center"> Solución para un desafío de <a href="https://devchallenges.io/">Devchallenges.io</a> </h3>
+
+<section align="left">
+     <h2> Tabla de Contenido </h2>
+</section>
+<nav>
+    <ul>
+        <li><a href="">Descripciòn General</a></li>
+        <li><a href="-">Soluciòn</a></li>
+        <li><a href="">Construido Con</a></li>
+        <li><a href="">Caracteristicas</a></li>
+        <li><a href="">Contacto</a></li>    
+    </ul>
+</nav>
 <section >
     <section>
-        <h1 > Muestra del Sitio </h1>
+        <h2 > Descripciòn General </h2>
     </section>
     <section >
-         <img align="center" width="300px" heigth="300px" src="./src/img/movil.png" alt="figura del sitio web en version movil">
-         <img align="center"  width="300px" heigth="300px" src="./src/img/escritorio.png" alt="figura del sitio web en version escritorio">
+         <img align="center"  width="100%" heigth="50vh" src="./src/img/escritorio.png" alt="figura del sitio web en version escritorio">
     <section>
    
 </section>
+
+</section>
+    <section >
+    <h2> Soluciòn </h2>
+    <nav>
+        <ul align="center">
+            <h3>
+                <a href="https://piguavejc-team-page.onrender.com/">Demo</a><span> | </span>
+                <a href="ttps://github.com/jean-carlos-19/team-page">Github </a><span> | </span>
+                <a href="https://devchallenges.io/solutions/UPsPRuQsvaufnf9LJjL0">Devchallenge</a> </a><span> | </span>
+                <a href="https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=0%3A1"">Figma<a>
+            </h3>
+        </ul>
+    </nav>
+</section>
+
 <section >
     <section>
-        <h2> Lenguajes </h2>
+        <h2> Construido Con </h2>
     </section>
     <nav>
         <ul>
@@ -30,21 +60,20 @@
     </nav>
 </section>
 <section >
-    <h3> Descripciòn </h3>
+    <h2> Caracteristicas </h2>
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
     </p>
 </section>
 <section >
-    <h3> Soluciòn </h3>
+     <section>
+        <h2> Contacto </h2>
+    </section>
     <nav>
-    <ul>
-        <li><a href="https://piguavejc-team-page.onrender.com/"> ver demo </a></li>
-        <li><a href="https://github.com/jean-carlos-19/team-page"> ver solucion en github </a></li>
-        <li><a href="https://devchallenges.io/solutions/UPsPRuQsvaufnf9LJjL0"> ver solucion en Devchallenge </a></li>
-        <li><a href="https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=0%3A1"> ver diseños en figma </a></li>
-    </ul>
+        <ul>
+                <li>Github <a href="https://github.com/jean-carlos-19">@jean-carlos-19</a></li>
+                <li>Twitter <a href="https://twitter.com/PiguaveJean">@PiguaveJean</a></li>
+        </ul>
 </nav>
 </section>
-
 </main>
