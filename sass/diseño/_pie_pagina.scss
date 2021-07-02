@@ -1,6 +1,8 @@
 footer {
+  width: 100%;
   height: 10%;
-  padding: 1em 0;
+  margin: 0;
+  padding: 2rem 0;  
   @include display_flex(row, center, center);
   p {
     font-family: Montserrat;
@@ -8,7 +10,7 @@ footer {
     font-size: 0.875rem;
     line-height: 1.0625rem;
     text-align: center;
-    color: #a9a9a9;
+    color: var(--color_del_pie_pagina);
 
     a {
       font-family: inherit;
@@ -16,7 +18,7 @@ footer {
       font-size: 1rem;
       line-height: inherit;
       font-weight: bolder;
-      color: #34495e;
+      color: var(--color_del_texto_default);
       font-style: italic;
     }
   }
