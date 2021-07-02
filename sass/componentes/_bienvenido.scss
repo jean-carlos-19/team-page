@@ -1,0 +1,30 @@
+.bienvenido {
+  h3 {
+    padding: 4.875rem 0.75rem 0;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  p {
+    padding: 0.8rem 0.75rem 0;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+  }
+  @media screen and (min-width: 37.5em) {
+    .bienvenido {
+      width: 50%;
+      h3 {
+        padding: 0.8rem 0.75rem 0;
+      }
+      p {
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+      }
+    }
+  }
+}

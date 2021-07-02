@@ -6,6 +6,7 @@
   "author": "Jean Carlos Piguave Alvarado <piguavejc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w sass -o src/css"
+    "sass": "node-sass -w sass -o src/css",
+    "prettier":"prettier --write sass"
   }
 }

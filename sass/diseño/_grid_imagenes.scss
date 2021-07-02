@@ -1,0 +1,15 @@
+.imagenes {
+  padding: 0.2em;
+  width: 95%;
+  @include display_grid(150px);
+
+  @media screen and (min-width: 37.5em) {
+    & {
+      @include display_grid(25vmax);
+    }
+  }
+  @media screen and (min-width: 50em) {
+    width: 80%;
+    @include display_grid(20vmax);
+  }
+}

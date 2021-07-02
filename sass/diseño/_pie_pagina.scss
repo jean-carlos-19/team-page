@@ -10,12 +10,14 @@ footer {
     text-align: center;
     color: #a9a9a9;
 
-    span {
+    a {
       font-family: inherit;
       text-align: inherit;
       font-size: 1rem;
       line-height: inherit;
-      font-weight: bold;
+      font-weight: bolder;
+      color: #34495e;
+      font-style: italic;
     }
   }
 }

@@ -1,9 +1,28 @@
-@import "./globales.scss";
-@import "./funciones.scss";
-.contenedor {
-  @include display_flex(column, flex-start, center);
+@import 
+    "resumenes/variable",
+    "resumenes/funciones",
+    "resumenes/mixin";
 
-  @import "./encabezado/encabezado";
-  @import "./imagenes/imagenes";
-  @import "./pie_pagina/pie_pagina";
-}
+//@import "proveedores/";
+
+@import 
+    "base/normalizar",
+    "base/tipografia",
+    "base/animaciones",
+    "base/base";
+
+@import 
+    "diseño/encabezado",
+    "diseño/grid_imagenes",
+    "diseño/pie_pagina";
+
+@import 
+    "componentes/bienvenido",
+    "componentes/figura",
+    "componentes/titulo";
+
+
+
+@import "paginas/home";
+
+//@import "temas/*";

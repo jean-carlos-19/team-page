@@ -1,0 +1,4 @@
+.home{
+    @include display_flex(column, flex-start, center);
+    animation: apareceSitio 1s ease-in 0s;
+}
