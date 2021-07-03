@@ -1,8 +1,8 @@
-@mixin display-grid($minimo) {
+@mixin display-grid($minimo, $relleno) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
   grid-auto-rows: 1fr;
-  grid-gap: 1rem;
+  grid-gap: $relleno;
 }
 @mixin display_flex($direccion, $eje_principal, $eje_secundario) {
   display: flex;

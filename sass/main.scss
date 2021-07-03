@@ -1,27 +1,13 @@
-@import 
-    "resumenes/variable",
-    "resumenes/funciones",
-    "resumenes/mixin";
+@import "resumenes/variable", "resumenes/funciones", "resumenes/mixin";
 
 //@import "proveedores/";
 
-@import 
-    "base/normalizar",
-    "base/tipografia",
-    "base/animaciones",
-    "base/base";
+@import "base/normalizar", "base/tipografia", "base/animaciones", "base/base";
 
-@import 
-    "diseño/encabezado",
-    "diseño/grid_imagenes",
-    "diseño/pie_pagina";
+@import "diseño/barra", "diseño/grid_imagenes", "diseño/pie_pagina";
 
-@import 
-    "componentes/bienvenido",
-    "componentes/figura",
-    "componentes/titulo";
-
-
+@import "componentes/bienvenido", "componentes/tarjeta",
+  "componentes/encabezado";
 
 @import "paginas/home";
 

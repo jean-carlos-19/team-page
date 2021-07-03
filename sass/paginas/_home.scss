@@ -1,7 +1,7 @@
-.home{
-    max-width: 1048px;
-    margin: 0 auto;
-    padding:0 .25rem;
-    animation: apareceSitio 1s ease-in 0s;
-    @include display_flex(column, flex-start, center);
+.home {
+  max-width: 1048px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  animation: apareceSitio 1s ease-in 0s;
+  @include display_flex(column, flex-start, center);
 }

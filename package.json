@@ -7,6 +7,6 @@
   "license": "MIT",
   "scripts": {
     "sass": "node-sass -w sass -o src/css",
-    "prettier":"prettier --write sass"
+    "prettier": "prettier --write ./*"
   }
 }

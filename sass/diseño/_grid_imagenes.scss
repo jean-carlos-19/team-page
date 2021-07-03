@@ -1,15 +1,15 @@
 .imagenes {
-  
   width: 95%;
-  @include display_grid(150px);
-
-  @media screen and (min-width: 37.5em) {
-    & {
-      @include display_grid(25vmax);
-    }
+  @include display_grid(33.33%, 1rem);
+}
+@media screen and (min-width: 37.5rem) {
+  .imagenes {
+    @include display_grid(25vmax, 1rem);
   }
-  @media screen and (min-width: 50em) {
+}
+@media screen and (min-width: 50rem) {
+  .imagenes {
     width: 80%;
-    @include display_grid(20vmax);
+    @include display_grid(15vmax, 1rem);
   }
 }

@@ -1,199 +1,266 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@200&display=swap");
 :root {
-  --color_del_texto_default: #34495e;
-  --color_del_pie_pagina:#a9a9a9; }
+  --color_del_texto_default: #000000;
+  --color_del_pie_pagina: #a9a9a9;
+}
 
 :root {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-  font-family: "PT Serif", serif; }
+  font-family: "PT Serif", serif;
+}
 
 *,
 *::after,
 *::after {
-  padding: inherit;
-  margin: inherit;
-  box-sizing: inherit; }
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
 
 @keyframes apareceSitio {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   25% {
-    opacity: .25; }
+    opacity: 0.25;
+  }
   50% {
-    opacity: .50; }
+    opacity: 0.5;
+  }
   75% {
-    opacity: .75; }
+    opacity: 0.75;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 img {
   max-width: 100%;
   object-fit: contain;
-  cursor: pointer; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: capitalize; }
+  cursor: pointer;
+}
 
 a {
   text-decoration: none;
-  color: #34495e; }
+  color: #34495e;
+}
 
 main > * + * {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+}
 
-.encabezado {
+.barra {
   width: 100%;
-  margin-top: 1.07rem; }
-  @media screen and (min-width: 37.5rem) {
-    .encabezado {
-      width: 95%;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center; } }
-  @media screen and (min-width: 50rem) {
-    .encabezado {
-      width: 80%; } }
+  margin-top: 4.43rem;
+}
+.barra > * + * {
+  margin-top: 3.16rem;
+}
+@media screen and (orientation: landscape) {
+  .barra {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 50rem) {
+  .barra {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
 
 .imagenes {
   width: 95%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(33.33%, 1fr));
   grid-auto-rows: 1fr;
-  grid-gap: 1rem; }
-  @media screen and (min-width: 37.5em) {
-    .imagenes {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(25vmax, 1fr));
-      grid-auto-rows: 1fr;
-      grid-gap: 1rem; } }
-  @media screen and (min-width: 50em) {
-    .imagenes {
-      width: 80%;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(20vmax, 1fr));
-      grid-auto-rows: 1fr;
-      grid-gap: 1rem; } }
+  grid-gap: 1rem;
+}
 
-footer {
+@media screen and (min-width: 37.5rem) {
+  .imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25vmax, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .imagenes {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15vmax, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+.pie_pagina {
   width: 100%;
   height: 10%;
-  margin: 0;
-  padding: 2rem 0;
+  margin-top: 8.43rem;
+  padding: 0 0 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
-  footer p {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.0625rem;
-    text-align: center;
-    color: var(--color_del_pie_pagina); }
-    footer p a {
-      font-family: inherit;
-      text-align: inherit;
-      font-size: 1rem;
-      line-height: inherit;
-      font-weight: bolder;
-      color: var(--color_del_texto_default);
-      font-style: italic; }
-
-.bienvenido h3, .bienvenido p {
-  color: var(--color_del_texto_default); }
-
-.bienvenido h3 {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.6875rem;
-  text-transform: uppercase;
-  font-weight: 600; }
-
-.bienvenido p {
-  font-family: Poppins;
+  align-items: center;
+}
+.pie_pagina .pie_pagina_parrafo {
+  font-family: Montserrat;
+  font-weight: 500;
   font-size: 0.875rem;
-  line-height: 1.3125rem;
-  font-weight: 400; }
+  line-height: 1.0625rem;
+  text-align: center;
+  color: var(--color_del_pie_pagina);
+}
+.pie_pagina .pie_pagina_parrafo .pie_pagina_enlace {
+  font-family: inherit;
+  text-align: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  font-weight: bolder;
+  color: var(--color_del_texto_default);
+  font-style: italic;
+}
 
 .bienvenido > * + * {
-  margin-top: .25rem; }
+  margin-top: 0.625rem;
+}
+
+.bienvenido .titulo {
+  color: var(--color_del_texto_default);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.bienvenido .bienvenido_titulo {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.68rem;
+  text-transform: uppercase;
+}
+
+.bienvenido .bienvenido_parrafo {
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.31rem;
+}
+
+@media screen and (min-width: 37.5rem) {
+  .bienvenido {
+    flex-basis: 50%;
+  }
+  .bienvenido .bienvenido_parrafo {
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 1.68rem;
+  }
+  .bienvenido .bienvenido_titulo {
+    font-size: 1.12rem;
+    line-height: 1.68rem;
+  }
+}
+
+.tarjeta {
+  margin: 0;
+}
+.tarjeta > * + * {
+  margin-top: 0.5rem;
+}
+.tarjeta:nth-child(2n) {
+  margin-top: 2rem;
+}
+.tarjeta .titulo {
+  color: var(--color_del_texto_default);
+  font-style: normal;
+  text-transform: uppercase;
+}
+.tarjeta .figura {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tarjeta .figura .figura_lateral_titulo {
+  writing-mode: vertical-lr;
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 0.62rem;
+  line-height: 0.81rem;
+}
+.tarjeta .tarjeta_titulo {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0.87rem;
+  line-height: 1.31rem;
+  text-transform: capitalize;
+  orientation: landscape;
+}
 
 @media screen and (min-width: 37.5em) {
-  .bienvenido .bienvenido {
-    width: 50%; }
-    .bienvenido .bienvenido p {
-      font-size: 1.125rem;
-      line-height: 1.6875rem; } }
+  .tarjeta:nth-child(2n) {
+    margin-top: 0;
+  }
+  .tarjeta:nth-child(2) {
+    margin-top: 1rem;
+  }
+  .tarjeta:nth-child(5) {
+    margin-top: 1rem;
+  }
+}
 
-.figura {
-  margin: 0; }
-  .figura > * + * {
-    margin-top: .5rem; }
-  .figura h6, .figura figcaption {
-    color: var(--color_del_texto_default); }
-  .figura div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start; }
-    .figura div h6 {
-      writing-mode: vertical-lr;
-      font-family: PT Serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 0.625rem;
-      line-height: 0.8125rem;
-      text-transform: uppercase; }
-  .figura figcaption {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1.3125rem;
-    font-weight: 700;
-    text-transform: capitalize; }
-  .figura:nth-child(2n) {
-    margin-top: 1rem; }
-  @media screen and (min-width: 37.5em) {
-    .figura h1 {
-      font-size: 0.75rem; }
-    .figura figcaption {
-      font-size: 1.125rem; }
-    .figura:nth-child(2n) {
-      margin-top: 0; }
-    .figura:nth-child(2) {
-      margin-top: 1rem; }
-    .figura:nth-child(5) {
-      margin-top: 1rem; } }
+@media screen and (min-width: 50rem) {
+  .tarjeta .figura_lateral_titulo {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .tarjeta .tarjeta_titulo {
+    font-size: 1.12rem;
+    line-height: 1.68rem;
+  }
+}
 
-.titulo {
-  font-family: PT Serif;
+/*
+font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+*/
+.encabezado .encabezado_titulo {
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 3rem;
-  letter-spacing: -0.045rem; }
-  .titulo h2 {
-    color: var(--color_del_texto_default); }
-  @media screen and (min-width: 37.5rem) {
-    .titulo {
-      width: 50%; } }
+  letter-spacing: -0.045rem;
+  color: var(--color_del_texto_default);
+}
+
+@media screen and (min-width: 37.5rem) {
+  .encabezado {
+    flex-basis: 50%;
+  }
+}
 
 .home {
   max-width: 1048px;
   margin: 0 auto;
-  padding: 0 .25rem;
+  padding: 0 1rem;
   animation: apareceSitio 1s ease-in 0s;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: center;
+}

@@ -1,32 +1,35 @@
 .bienvenido {
-  h3,p{
-    color: var(--color_del_texto_default)
+  & > * + * {
+    margin-top: 0.625rem;
   }
-  h3 {
-    font-family: Poppins;
+  .titulo {
+    color: var(--color_del_texto_default);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  .bienvenido_titulo {
     font-weight: 600;
     font-size: 1.125rem;
-    line-height: 1.6875rem;
+    line-height: 1.68rem;
     text-transform: uppercase;
-    font-weight: 600;
   }
-  p {
-   
-    font-family: Poppins;
-    font-size: 0.875rem;
-    line-height: 1.3125rem;
+  .bienvenido_parrafo {
     font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.31rem;
   }
-  & > * + * {
-    margin-top: .25rem;
-  }
-  @media screen and (min-width: 37.5em) {
-    .bienvenido {
-      width: 50%;
-      p {
-        font-size: 1.125rem;
-        line-height: 1.6875rem;
-      }
+}
+@media screen and (min-width: 37.5rem) {
+  .bienvenido {
+    flex-basis: 50%;
+    .bienvenido_parrafo {
+      font-weight: normal;
+      font-size: 1.12rem;
+      line-height: 1.68rem;
+    }
+    .bienvenido_titulo {
+      font-size: 1.12rem;
+      line-height: 1.68rem;
     }
   }
 }

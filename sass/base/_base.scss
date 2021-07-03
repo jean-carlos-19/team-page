@@ -3,18 +3,10 @@ img {
   object-fit: contain;
   cursor: pointer;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: capitalize;
-}
-a{
+a {
   text-decoration: none;
   color: #34495e;
 }
-main > * + *{
+main > * + * {
   margin-top: 2rem;
 }

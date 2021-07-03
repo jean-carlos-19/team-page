@@ -1,0 +1,15 @@
+.barra {
+  width: 100%;
+  margin-top: 4.43rem;
+  & > * + * {
+    margin-top: 3.16rem;
+  }
+  @media screen and (orientation: landscape) {
+    width: 100%;
+    @include display_flex(row, flex-start, center);
+  }
+  @media screen and (min-width: 50rem) {
+    width: 80%;
+    @include display_flex(row, flex-start, center);
+  }
+}
