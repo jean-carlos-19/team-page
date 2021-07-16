@@ -1,7 +1,11 @@
 .home {
-  max-width: 1048px;
+  max-width: 90rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 71px 12px;
   animation: apareceSitio 1s ease-in 0s;
-  @include display_flex(column, flex-start, center);
+}
+@media screen and (min-width: 64rem) {
+  .home {
+    padding: 110px 243px;
+  }
 }

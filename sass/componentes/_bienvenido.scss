@@ -3,7 +3,7 @@
     margin-top: 0.625rem;
   }
   .titulo {
-    color: var(--color_del_texto_default);
+    color: var(--color_texto_default);
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
@@ -19,7 +19,7 @@
     line-height: 1.31rem;
   }
 }
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 64rem) {
   .bienvenido {
     flex-basis: 50%;
     .bienvenido_parrafo {

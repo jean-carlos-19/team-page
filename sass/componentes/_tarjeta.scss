@@ -15,14 +15,14 @@
     @include display_flex(row, center, flex-start);
     .figura_lateral_titulo {
       writing-mode: vertical-lr;
-      font-family: "PT Serif";
+      font-family: "PT Serif", serif;
       font-weight: normal;
       font-size: 0.62rem;
       line-height: 0.81rem;
     }
   }
   .tarjeta_titulo {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 0.87rem;
     line-height: 1.31rem;
@@ -30,18 +30,7 @@
     orientation: landscape;
   }
 }
-@media screen and (min-width: 37.5em) {
-  .tarjeta:nth-child(2n) {
-    margin-top: 0;
-  }
-  .tarjeta:nth-child(2) {
-    margin-top: 1rem;
-  }
-  .tarjeta:nth-child(5) {
-    margin-top: 1rem;
-  }
-}
-@media screen and(min-width:50rem) {
+@media screen and(min-width:64rem) {
   .tarjeta {
     .figura_lateral_titulo {
       font-size: 0.75rem;
@@ -53,11 +42,3 @@
     }
   }
 }
-
-/*
-font-family: PT Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-*/

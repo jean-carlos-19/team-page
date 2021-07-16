@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 :root {
-  --color_del_texto_default: #000000;
-  --color_del_pie_pagina: #a9a9a9;
+  --color_texto_default: #000000;
+  --color_pie_pagina: #a9a9a9;
 }
 
 :root {
@@ -55,52 +55,33 @@ main > * + * {
 
 .barra {
   width: 100%;
-  margin-top: 4.43rem;
 }
 .barra > * + * {
   margin-top: 3.16rem;
 }
-@media screen and (orientation: landscape) {
+@media screen and (min-width: 64rem) {
   .barra {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
   }
-}
-@media screen and (min-width: 50rem) {
-  .barra {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  .barra > * + * {
+    margin-left: 2.37rem;
   }
 }
 
 .imagenes {
-  width: 95%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(33.33%, 1fr));
   grid-auto-rows: 1fr;
   grid-gap: 1rem;
 }
 
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 64rem) {
   .imagenes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25vmax, 1fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 1rem;
-  }
-}
-
-@media screen and (min-width: 50rem) {
-  .imagenes {
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15vmax, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
     grid-auto-rows: 1fr;
     grid-gap: 1rem;
   }
@@ -117,12 +98,12 @@ main > * + * {
   align-items: center;
 }
 .pie_pagina .pie_pagina_parrafo {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.0625rem;
   text-align: center;
-  color: var(--color_del_pie_pagina);
+  color: var(--color_pie_pagina);
 }
 .pie_pagina .pie_pagina_parrafo .pie_pagina_enlace {
   font-family: inherit;
@@ -130,7 +111,7 @@ main > * + * {
   font-size: 1rem;
   line-height: inherit;
   font-weight: bolder;
-  color: var(--color_del_texto_default);
+  color: var(--color_texto_default);
   font-style: italic;
 }
 
@@ -139,7 +120,7 @@ main > * + * {
 }
 
 .bienvenido .titulo {
-  color: var(--color_del_texto_default);
+  color: var(--color_texto_default);
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
@@ -157,7 +138,7 @@ main > * + * {
   line-height: 1.31rem;
 }
 
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 64rem) {
   .bienvenido {
     flex-basis: 50%;
   }
@@ -194,13 +175,13 @@ main > * + * {
 }
 .tarjeta .figura .figura_lateral_titulo {
   writing-mode: vertical-lr;
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   font-weight: normal;
   font-size: 0.62rem;
   line-height: 0.81rem;
 }
 .tarjeta .tarjeta_titulo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 0.87rem;
   line-height: 1.31rem;
@@ -208,19 +189,7 @@ main > * + * {
   orientation: landscape;
 }
 
-@media screen and (min-width: 37.5em) {
-  .tarjeta:nth-child(2n) {
-    margin-top: 0;
-  }
-  .tarjeta:nth-child(2) {
-    margin-top: 1rem;
-  }
-  .tarjeta:nth-child(5) {
-    margin-top: 1rem;
-  }
-}
-
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 64rem) {
   .tarjeta .figura_lateral_titulo {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -231,36 +200,31 @@ main > * + * {
   }
 }
 
-/*
-font-family: PT Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-*/
 .encabezado .encabezado_titulo {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 3rem;
   letter-spacing: -0.045rem;
-  color: var(--color_del_texto_default);
+  color: var(--color_texto_default);
 }
 
-@media screen and (min-width: 37.5rem) {
+@media screen and (min-width: 64rem) {
   .encabezado {
     flex-basis: 50%;
   }
 }
 
 .home {
-  max-width: 1048px;
+  max-width: 90rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 71px 12px;
   animation: apareceSitio 1s ease-in 0s;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+}
+
+@media screen and (min-width: 64rem) {
+  .home {
+    padding: 110px 243px;
+  }
 }
