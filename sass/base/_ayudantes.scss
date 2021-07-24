@@ -1,0 +1,27 @@
+.titulo{
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    letter-spacing: -0.045rem;
+    text-transform: none;
+    color: var(--color_primario);
+}
+.parrafo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    text-align: center;
+    color: var(--color_primario);
+}
+.enlace{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: inherit;
+    line-height: inherit;
+    color: var(--color_primario);
+}

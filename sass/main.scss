@@ -2,14 +2,15 @@
 
 //@import "proveedores/";
 
-@import "base/normalizar", "base/tipografia", "base/animaciones", "base/base";
+@import  "base/fuentes", "base/animaciones", "base/normalizar","base/base","base/ayudantes";
 
 @import "diseño/barra", "diseño/grid_imagenes", "diseño/pie_pagina";
 
-@import "componentes/titulo", "componentes/parrafo", "componentes/enlace", "componentes/bienvenido", "componentes/tarjeta",
+@import "componentes/bienvenido", "componentes/tarjeta",
   "componentes/encabezado";
 
 @import "paginas/home";
 
 //@import "temas/*";
+
 

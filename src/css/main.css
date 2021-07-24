@@ -5,18 +5,6 @@
   --color_primario: #000000;
   --color_secundario_gris: #a9a9a9; }
 
-:root {
-  box-sizing: border-box;
-  font-family: "PT Serif", serif; }
-
-*,
-*::after,
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: inherit;
-  font-family: inherit; }
-
 @keyframes apareceSitio {
   0% {
     opacity: 0; }
@@ -29,6 +17,18 @@
   100% {
     opacity: 1; } }
 
+:root {
+  box-sizing: border-box;
+  font-family: "PT Serif", serif; }
+
+*,
+*::after,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: inherit; }
+
 img {
   max-width: 100%;
   object-fit: contain;
@@ -40,6 +40,33 @@ a {
 
 main > * + * {
   margin-top: 2rem; }
+
+.titulo {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  letter-spacing: -0.045rem;
+  text-transform: none;
+  color: var(--color_primario); }
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-align: center;
+  color: var(--color_primario); }
+
+.enlace {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: inherit;
+  line-height: inherit;
+  color: var(--color_primario); }
 
 .barra {
   width: 100%; }
@@ -79,33 +106,6 @@ main > * + * {
   .pie_pagina .pie_pagina_parrafo {
     color: var(--color_secundario_gris); }
 
-.titulo {
-  font-family: "PT Serif", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 3rem;
-  letter-spacing: -0.045rem;
-  text-transform: none;
-  color: var(--color_primario); }
-
-.parrafo {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  text-align: center;
-  color: var(--color_primario); }
-
-.enlace {
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: bolder;
-  font-style: italic;
-  text-align: inherit;
-  line-height: inherit;
-  color: var(--color_primario); }
-
 .bienvenido > * + * {
   margin-top: 0.625rem; }
 
@@ -117,6 +117,7 @@ main > * + * {
   text-transform: uppercase; }
 
 .bienvenido .bienvenido_parrafo {
+  text-align: left;
   font-weight: 400;
   font-size: 0.87rem;
   line-height: 1.31rem; }
