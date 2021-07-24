@@ -6,19 +6,15 @@
   &:nth-child(2n) {
     margin-top: 2rem;
   }
-  .titulo {
-    color: var(--color_del_texto_default);
-    font-style: normal;
-    text-transform: uppercase;
-  }
+ 
   .figura {
     @include display_flex(row, center, flex-start);
     .figura_lateral_titulo {
       writing-mode: vertical-lr;
-      font-family: "PT Serif", serif;
       font-weight: normal;
       font-size: 0.62rem;
       line-height: 0.81rem;
+      text-transform: uppercase;
     }
   }
   .tarjeta_titulo {
@@ -26,7 +22,7 @@
     font-weight: 600;
     font-size: 0.87rem;
     line-height: 1.31rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
     orientation: landscape;
   }
 }

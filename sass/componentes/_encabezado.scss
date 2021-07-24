@@ -1,14 +1,4 @@
-.encabezado {
-  .encabezado_titulo {
-    font-family: "PT Serif", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.25rem;
-    line-height: 3rem;
-    letter-spacing: -0.045rem;
-    color: var(--color_texto_default);
-  }
-}
+.encabezado {}
 @media screen and (min-width: 64rem) {
   .encabezado {
     flex-basis: 50%;

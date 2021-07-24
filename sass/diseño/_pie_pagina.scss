@@ -4,22 +4,9 @@
   margin-top: 8.43rem;
   padding: 0 0 1.5rem;
   @include display_flex(row, center, center);
-  .pie_pagina_parrafo {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.0625rem;
-    text-align: center;
-    color: var(--color_pie_pagina);
 
-    .pie_pagina_enlace {
-      font-family: inherit;
-      text-align: inherit;
-      font-size: 1rem;
-      line-height: inherit;
-      font-weight: bolder;
-      color: var(--color_texto_default);
-      font-style: italic;
-    }
+  .pie_pagina_parrafo {
+    color: var(--color_secundario_gris);
+
   }
 }
