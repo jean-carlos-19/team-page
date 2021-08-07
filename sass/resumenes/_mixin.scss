@@ -1,7 +1,7 @@
-@mixin display-grid($minimo, $relleno) {
+@mixin display-grid($minimo, $relleno, $fila) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
-  grid-auto-rows: 1fr;
+  grid-auto-rows: $fila;
   grid-gap: $relleno;
 }
 @mixin display_flex($direccion, $eje_principal, $eje_secundario) {

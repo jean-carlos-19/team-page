@@ -1,8 +1,0 @@
-.imagenes {
-  @include display_grid(33.33%, 1rem);
-}
-@media screen and (min-width: 64rem) {
-  .imagenes {
-    @include display_grid(30%, 1rem);
-  }
-}

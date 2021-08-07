@@ -2,31 +2,32 @@
   & > * + * {
     margin-top: 0.625rem;
   }
-  .bienvenido_titulo {
+  .titulo2_bienvenido {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: var(--tamano_titulo2);
     line-height: 1.68rem;
     text-transform: uppercase;
   }
-  .bienvenido_parrafo {
+  .parrafo_bienvenido {
     text-align: left;
     font-weight: 400;
-    font-size: 0.87rem;
+    font-size: var(--tamano_titulo3);
     line-height: 1.31rem;
   }
 }
+//ESCRITORIO
 @media screen and (min-width: 64rem) {
   .bienvenido {
-    flex-basis: 50%;
-    .bienvenido_parrafo {
-      font-weight: normal;
-      font-size: 1.12rem;
+    margin-top: 0;
+    flex-basis: 42.53%; /* 100 - 14.93 */
+    .titulo2_bienvenido,
+    .parrafo_bienvenido {
+      font-size: var(--tamano_titulo2);
       line-height: 1.68rem;
     }
-    .bienvenido_titulo {
-      font-size: 1.12rem;
-      line-height: 1.68rem;
+    .parrafo_bienvenido {
+      font-weight: normal;
     }
   }
 }

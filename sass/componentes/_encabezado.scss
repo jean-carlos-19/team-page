@@ -1,6 +1,7 @@
-.encabezado {}
+.encabezado {
+}
 @media screen and (min-width: 64rem) {
   .encabezado {
-    flex-basis: 50%;
+    flex-basis: 42.53%; /* 100 - 14.93 */
   }
 }

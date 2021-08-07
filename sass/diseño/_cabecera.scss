@@ -1,0 +1,13 @@
+.cabecera {
+  width: 100%;
+  & > * + * {
+    margin-top: 2.31rem;
+  }
+}
+
+//ESCRITORIO
+@media screen and (min-width: 64rem) {
+  .cabecera {
+    @include display_flex(row, space-between, flex-start);
+  }
+}

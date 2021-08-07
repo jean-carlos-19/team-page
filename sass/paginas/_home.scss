@@ -1,11 +1,17 @@
 .home {
   max-width: 90rem;
   margin: 0 auto;
-  padding: 71px 12px;
+  padding: 18.93% 3.2% 0; /* [(71/375)*100],[(12/375)*100] */
   animation: apareceSitio 1s ease-in 0s;
+
+  & > header + section {
+    margin-top: 5rem;
+  }
 }
+
+//ESCRITORIO
 @media screen and (min-width: 64rem) {
   .home {
-    padding: 110px 243px;
+    padding: 7.63% 16.87% 0; /* [(110/1440)*100],[(243/1440)*100] */
   }
 }

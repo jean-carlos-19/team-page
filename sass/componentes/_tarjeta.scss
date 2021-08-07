@@ -1,26 +1,24 @@
 .tarjeta {
   margin: 0;
-  & > * + * {
-    margin-top: 0.5rem;
-  }
   &:nth-child(2n) {
-    margin-top: 2rem;
+    //margin-left: 2.93%;
+    margin-top: 20.83%;
   }
- 
   .figura {
+    min-height: 25vmax;
     @include display_flex(row, center, flex-start);
-    .figura_lateral_titulo {
+    .titulo4_figura_lateral {
       writing-mode: vertical-lr;
       font-weight: normal;
-      font-size: 0.62rem;
+      font-size: var(--tamano_titulo4);
       line-height: 0.81rem;
       text-transform: uppercase;
     }
   }
-  .tarjeta_titulo {
+  .titulo3_tarjeta {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 0.87rem;
+    font-size: var(--tamano_titulo3);
     line-height: 1.31rem;
     text-transform: uppercase;
     orientation: landscape;
@@ -28,11 +26,18 @@
 }
 @media screen and(min-width:64rem) {
   .tarjeta {
-    .figura_lateral_titulo {
+    &:nth-child(2n) {
+      margin-top: 0;
+    }
+    &:nth-child(2),
+    &:nth-child(5) {
+      margin-top: 20.83%;
+    }
+    .titulo4_figura_lateral {
       font-size: 0.75rem;
       line-height: 1rem;
     }
-    .tarjeta_titulo {
+    .titulo3_tarjeta {
       font-size: 1.12rem;
       line-height: 1.68rem;
     }
