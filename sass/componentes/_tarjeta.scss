@@ -1,7 +1,7 @@
 .tarjeta {
   margin: 0;
-  &>*+*{
-    margin-top: .5rem;
+  & > * + * {
+    margin-top: 1rem;
   }
   &:nth-child(2n) {
     margin-top: 20.83%;
@@ -9,10 +9,15 @@
   .figura {
     min-height: 25vmax;
     @include display_flex(row, center, flex-start);
-    &>*+*{
-      margin-left: .5rem;
+    & > * + * {
+      margin-left: 0.5rem;
+    }
+    .imagen_figura {
+      width: calc(100% - 5% - 0.5rem);
+      border-radius: 0.5rem;
     }
     .titulo4_figura_lateral {
+      flex-basis: 5%;
       writing-mode: vertical-lr;
       font-weight: normal;
       font-size: var(--tamano_titulo4);
