@@ -7,6 +7,6 @@
 @media screen and (min-width: 64rem) {
   .imagenes {
     height: 100vh;
-    @include display_grid(20.83%, 6.45%, 30%); /* [(300/1440)*100], [(93/1440)*100] */
+    @include display_grid(20.83%, 6.45%, 40%); /* [(300/1440)*100], [(93/1440)*100] */
   }
 }
