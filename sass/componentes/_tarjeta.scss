@@ -6,32 +6,6 @@
   &:nth-child(2n) {
     margin-top: 20.83%;
   }
-  .figura {
-    @include display_flex(row, center, flex-start);
-    & > * + * {
-      margin-left: 0.5rem;
-    }
-    .imagen_figura {
-      width: calc(100% - 5% - 0.5rem);
-      border-radius: 0.5rem;
-    }
-    .titulo4_figura_lateral {
-      flex-basis: 5%;
-      writing-mode: vertical-lr;
-      font-weight: normal;
-      font-size: var(--tamano_titulo4);
-      line-height: 0.81rem;
-      text-transform: uppercase;
-    }
-  }
-  .titulo3_tarjeta {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: var(--tamano_titulo3);
-    line-height: 1.31rem;
-    text-transform: uppercase;
-    orientation: landscape;
-  }
 }
 //ESCRITORIO
 @media screen and(min-width:37rem) {
@@ -43,12 +17,8 @@
     &:nth-child(5) {
       margin-top: 20.83%;
     }
-    .titulo4_figura_lateral {
-      font-size: 0.75rem;
-      line-height: 1rem;
-    }
-    .titulo3_tarjeta {
-      font-size: 1.12rem;
+    .titulo_3_tarjeta {
+      font-size: var(--tamano_titulo_2);
       line-height: 1.68rem;
     }
   }

@@ -8,6 +8,31 @@
   text-transform: none;
   color: var(--color_primario);
 }
+.titulo_2 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--tamano_titulo_2);
+  line-height: 1.68rem;
+  letter-spacing: -0.045rem;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--color_primario);
+}
+.titulo_3 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--tamano_titulo_3);
+  line-height: 1.31rem;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  orientation: landscape;
+  text-align: left;
+  color: var(--color_primario);
+}
+.titulo_4 {
+}
 .parrafo {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;

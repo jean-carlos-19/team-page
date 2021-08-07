@@ -1,0 +1,25 @@
+.figura {
+  @include display_flex(row, center, flex-start);
+  & > * + * {
+    margin-left: 0.5rem;
+  }
+  .imagen_figura {
+    width: calc(100% - 5% - 0.5rem);
+    border-radius: 0.5rem;
+  }
+  .titulo_4_figura_lateral {
+    flex-basis: 5%;
+    writing-mode: vertical-lr;
+    font-weight: normal;
+    font-size: var(--tamano_titulo_4);
+    line-height: 0.81rem;
+    text-transform: uppercase;
+  }
+}
+//ESCRITORIO
+@media screen and(min-width:37rem) {
+  .titulo_4_figura_lateral {
+    font-size: var(--tamano_titulo_5);
+    line-height: 1rem;
+  }
+}
