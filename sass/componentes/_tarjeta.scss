@@ -7,7 +7,6 @@
     margin-top: 20.83%;
   }
   .figura {
-    min-height: 25vmax;
     @include display_flex(row, center, flex-start);
     & > * + * {
       margin-left: 0.5rem;
@@ -34,7 +33,8 @@
     orientation: landscape;
   }
 }
-@media screen and(min-width:64rem) {
+//ESCRITORIO
+@media screen and(min-width:37rem) {
   .tarjeta {
     &:nth-child(2n) {
       margin-top: 0;

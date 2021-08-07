@@ -93,7 +93,7 @@ a {
   margin-top: 2.31rem;
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 50rem) {
   .cabecera {
     display: flex;
     flex-direction: row;
@@ -111,7 +111,7 @@ a {
   /* [(172.42/375)*100], [(42.28/375)*100] */
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 37rem) {
   .imagenes {
     height: auto;
     display: grid;
@@ -154,7 +154,7 @@ a {
   line-height: 1.31rem;
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 50rem) {
   .bienvenido {
     margin-top: 0;
     flex-basis: 42.53%;
@@ -180,7 +180,6 @@ a {
   margin-top: 20.83%;
 }
 .tarjeta .figura {
-  min-height: 25vmax;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -210,7 +209,7 @@ a {
   orientation: landscape;
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 37rem) {
   .tarjeta:nth-child(2n) {
     margin-top: 0;
   }

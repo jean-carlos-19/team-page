@@ -4,7 +4,7 @@
 }
 
 //ESCRITORIO
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: 37rem) {
   .imagenes {
     height: auto;
     @include display_grid(20.83%, 6.45%, auto); /* [(300/1440)*100], [(93/1440)*100] */
