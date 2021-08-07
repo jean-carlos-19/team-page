@@ -1,5 +1,5 @@
 .imagenes {
-  height: 150vh;
+  height: 160vh;
   @include display_grid(30.83%, 8.93%, auto); /* [(172.42/375)*100], [(42.28/375)*100] */
 }
 
