@@ -5,7 +5,7 @@
   animation: apareceSitio 1s ease-in 0s;
 
   & > header + section {
-    margin-top: 5rem;
+    margin-top: 5.67vh; /* (80/1409)*100 */
   }
 }
 

@@ -1,26 +1,12 @@
 .bienvenido {
   & > * + * {
-    margin-top: 0.625rem;
-  }
-  .parrafo_bienvenido {
-    font-weight: 400;
-    font-size: var(--tamano_titulo3);
-    line-height: 1.31rem;
-    text-align: left;
+    margin-top: 0.67vh; /* (9.54/1404)*100 */
   }
 }
 //ESCRITORIO
 @media screen and (min-width: 50rem) {
   .bienvenido {
     margin-top: 0;
-    flex-basis: 42.53%; /* 100 - 14.93 */
-    .titulo2_bienvenido,
-    .parrafo_bienvenido {
-      font-size: var(--tamano_titulo2);
-      line-height: 1.68rem;
-    }
-    .parrafo_bienvenido {
-      font-weight: normal;
-    }
+    flex-basis: 42.53%; /* (612.43/1440)*100  */
   }
 }

@@ -3,11 +3,12 @@
   padding: 0 0 1.5rem;
   width: 100%;
 
-  .parrafo_pie_pagina {
+  .normal_pie_pagina {
     text-align: center;
     color: var(--color_secundario_gris);
 
     .enlace_pie_pagina {
+      font-weight: bold;
       color: inherit;
     }
   }
