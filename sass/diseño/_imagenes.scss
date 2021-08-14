@@ -1,12 +1,12 @@
 .imagenes {
   height: 160vh;
-  @include display_grid(30.83%, 8.93%, auto); /* [(172.42/375)*100], [(42.28/375)*100] */
+  @include display_grid(30.83%, 2.64rem, auto); /* [(172.42/375)*100], [(42.28/16)] */
 }
 
 //ESCRITORIO
 @media screen and (min-width: 37rem) {
   .imagenes {
     height: auto;
-    @include display_grid(20.83%, 6.45%, auto); /* [(300/1440)*100], [(93/1440)*100] */
+    @include display_grid(20.83%, 5.81rem, auto); /* [(300/1440)*100], [(93/16)] */
   }
 }

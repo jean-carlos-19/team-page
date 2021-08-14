@@ -1,7 +1,7 @@
 .figura {
   @include display_flex(row, center, flex-start);
   & > * + * {
-    margin-left: 2.13%; /* (8/375)*100 */
+    margin-left: .5rem; /* (8/16) */
   }
   .imagen_figura {
     width: calc(100% - 5% - 2.13%);
