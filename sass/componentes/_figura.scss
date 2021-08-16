@@ -1,10 +1,10 @@
 .figura {
   @include display_flex(row, center, flex-start);
   & > * + * {
-    margin-left: .5rem; /* (8/16) */
+    margin-left: 0.5rem; /* (8/16) */
   }
   .imagen_figura {
-    width: calc(100% - 5% - 2.13%);
+    width: calc( 100% - (.5rem + 1.5rem));
     border-radius: 0.5rem;
   }
 }

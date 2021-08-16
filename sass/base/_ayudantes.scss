@@ -20,7 +20,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: var(--tamano_titulo_2_movil);
-  line-height:var(--interlineado_titulo_2_movil);
+  line-height: var(--interlineado_titulo_2_movil);
   letter-spacing: -0.045rem;
   text-transform: uppercase;
   text-align: left;
@@ -43,7 +43,7 @@
   orientation: landscape;
   text-align: left;
   color: var(--color_primario);
-  @media screen and(min-width:37.5rem) {
+  @media screen and(min-width:60rem) {
     & {
       font-size: var(--tamano_titulo_3_escritorio);
       line-height: var(--interlineado_titulo_3_escritorio);
@@ -55,7 +55,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: var(--tamano_titulo_4_movil);
-  line-height:var(--interlineado_titulo_4_movil);
+  line-height: var(--interlineado_titulo_4_movil);
   text-transform: uppercase;
   color: var(--color_primario);
   writing-mode: vertical-lr;
@@ -84,7 +84,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: var(--tamano_normal_escritorio);
-  line-height:var(--interlineado_normal_movil);
+  line-height: var(--interlineado_normal_movil);
   text-align: left;
   color: var(--color_primario);
   @media screen and(min-width:37.5rem) {

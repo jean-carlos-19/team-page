@@ -4,13 +4,14 @@
 
 //@import "proveedores/";
 
-@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base", "base/ayudantes";
+@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base",
+  "base/ayudantes";
 
 @import "diseño/cabecera", "diseño/imagenes", "diseño/pie_pagina";
 
-@import "componentes/bienvenido", "componentes/tarjeta", "componentes/figura", "componentes/encabezado";
+@import "componentes/bienvenido", "componentes/tarjeta", "componentes/figura",
+  "componentes/encabezado";
 
 @import "paginas/home";
 
 //@import "temas/*";
-
