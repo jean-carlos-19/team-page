@@ -1,5 +1,6 @@
 .imagenes {
   height: 160vh;
+  margin-top: 6rem; /*96/16*/
   @include display_grid(
     30.83%,
     2.64rem,

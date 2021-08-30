@@ -1,4 +1,18 @@
 :root {
+  /*
+  movil:(x=375,y=1049)
+  escritorio:(x=1440,y=1489)
+*/
+
+  @include colores();
+  @include titulo();
+  @include titulo_2();
+  @include titulo_3();
+  @include titulo_4();
+  @include normal();
+  @include rellenos();
+  @include anchos();
+
   box-sizing: border-box;
   font-family: "PT Serif", serif;
 }

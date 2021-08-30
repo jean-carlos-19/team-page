@@ -1,0 +1,49 @@
+.titulo {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--tamano_titulo);
+  line-height: var(--interlineado_titulo);
+  letter-spacing: -0.045rem;
+  text-transform: none;
+  color: var(--color_primario);
+}
+.titulo_2 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--tamano_titulo_2);
+  line-height: var(--interlineado_titulo_2);
+  letter-spacing: -0.045rem;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--color_primario);
+}
+.titulo_3 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--tamano_titulo_3);
+  line-height: var(--interlineado_titulo_3);
+  letter-spacing: normal;
+  text-transform: uppercase;
+  orientation: landscape;
+  text-align: left;
+  color: var(--color_primario);
+}
+.titulo_4 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano_titulo_4);
+  line-height: var(--interlineado_titulo_4);
+  text-transform: uppercase;
+  color: var(--color_primario);
+  writing-mode: vertical-lr;
+}
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  color: var(--color_primario);
+}
