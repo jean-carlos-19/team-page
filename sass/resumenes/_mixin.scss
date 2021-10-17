@@ -10,3 +10,48 @@
   justify-content: $eje_principal;
   align-items: $eje_secundario;
 }
+@mixin colores {
+  --color_primario: #000000;
+  --color_secundario_gris: #a9a9a9;
+}
+@mixin titulo_1 {
+  --tamano_titulo_1: #{$tamano_titulo_1_movil};
+  --interlineado_titulo_1: #{$interlineado_titulo_1_movil};
+}
+@mixin titulo_2 {
+  --tamano_titulo_2: #{$tamano_titulo_2_movil};
+  --interlineado_titulo_2: #{$interlineado_titulo_2_movil};
+}
+@mixin titulo_3 {
+  --tamano_titulo_3: #{$tamano_titulo_3_movil};
+  --interlineado_titulo_3: #{$interlineado_titulo_3_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_3: #{$tamano_titulo_3_escritorio};
+    --interlineado_titulo_3: #{$interlineado_titulo_3_escritorio};
+  }
+}
+@mixin titulo_4 {
+  --tamano_titulo_4: #{$tamano_titulo_4_movil};
+  --interlineado_titulo_4: #{$interlineado_titulo_4_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_4: #{$tamano_titulo_4_escritorio};
+    --interlineado_titulo_4: #{$interlineado_titulo_4_escritorio};
+  }
+}
+@mixin normal {
+  --tamano_normal: #{$tamano_normal_movil};
+  --interlineado_normal: #{$interlineado_normal_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_normal: #{$tamano_normal_escritorio};
+    --interlineado_normal: #{$interlineado_normal_escritorio};
+  }
+}
+@mixin rellenos {
+  --relleno_home: 4.43rem 0.75rem; /* (71/16) , (12/16)  */
+  @media screen and(min-width:60rem) {
+    --relleno_home: 6.87rem 15.18rem; /* (110/16) , (243/16)  */
+  }
+}
+@mixin anchos {
+  --ancho_maximo_home: 90rem; /*1440/16*/
+}
