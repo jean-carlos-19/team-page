@@ -1,12 +1,16 @@
 {
   "name": "team-page",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://devchallenges.io/portfolio/jean-carlos-19"
+  },
   "version": "1.0.0",
   "main": "app.js",
   "description": "",
-  "author": "Jean Carlos Piguave Alvarado <piguavejc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w sass -o src/css",
+    "scss": "node-sass -w sass -o src/css",
     "prettier": "prettier --write ./*"
   }
 }
