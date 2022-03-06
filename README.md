@@ -7,7 +7,7 @@ _Reto:  rear la página de mi equipo siguiendo el diseño propuesto por [DevChal
 
 ### Previsualización :eye:
 
-![imagen]()
+![imagen](https://github.com/jean-carlos-19/team-page/blob/master/captura/escritorio.png)
 
 ### Demo :eyes:
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-team-page.onrender.com/)_
